@@ -1,0 +1,3 @@
+Membuat program sistem perhitungan diskon toko. Program diawali dengan deklarasi variabel nama dan NIM, kemudian tiga digit terakhir NIM diambil dan dikonversi menjadi double untuk disimpan sebagai nilaiUnikNIM. Nilai tersebut ditambahkan ke dalam List<double> yang berisi harga barang sehingga setiap program memiliki nilai yang unik.
+
+Selanjutnya membuat fungsi hitungTotal yang menggunakan perulangan for-in untuk menjumlahkan seluruh harga dalam list. Program kemudian menerapkan percabangan if-else untuk menentukan diskon berdasarkan total belanja. Terakhir, program menampilkan nama, NIM, total belanja, diskon, dan total akhir menggunakan print().
