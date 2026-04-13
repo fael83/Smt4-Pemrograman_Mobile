@@ -24,11 +24,11 @@ class MyApp extends StatelessWidget {
   Widget buildRow() =>
       // #docregion row
       Row(
-        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+        crossAxisAlignment: CrossAxisAlignment.center,
         children: [
-          Image.asset('images/pic1.jpg'),
-          Image.asset('images/pic2.jpg'),
-          Image.asset('images/pic3.jpg'),
+          Expanded(child: Image.asset('images/pic1.jpg')),
+          Expanded(flex: 2, child: Image.asset('images/pic2.jpg')),
+          Expanded(child: Image.asset('images/pic3.jpg')),
         ],
       );
   // #enddocregion row

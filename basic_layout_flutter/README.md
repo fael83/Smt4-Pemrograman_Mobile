@@ -1,7 +1,10 @@
 # basic_layout_flutter
 
-1
+Layout Widget
 ![Screenshoot basic_layout_flutter](images/01.png)
 
-2
+Aligning Widget
 ![Screenshoot basic_layout_flutter](images/02.png)
+
+Sizing Widget
+![Screenshoot basic_layout_flutter](images/03.png)
