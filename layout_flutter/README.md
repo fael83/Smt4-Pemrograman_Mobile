@@ -4,3 +4,6 @@ A new Flutter project.
 
 Praktikum 1
 ![Screenshoot layout_flutter](images/01.png)
+
+Praktikum 2
+![Screenshoot layout_flutter](images/02.png)
