@@ -20,14 +20,14 @@ class MyApp extends StatelessWidget {
                 Container(
                   padding: const EdgeInsets.only(bottom: 8.0),
                   child: const Text(
-                    'Wisata Gunung di Batu',
+                    'Wisata Gunung Rinjani',
                     style: TextStyle(
                       fontWeight: FontWeight.bold,
                     ),
                   ),
                 ),
                 Text(
-                  'Batu, Malang, Indonesia',
+                  'Lombok, Nusa Tenggara Barat, Indonesia',
                   style: TextStyle(
                     color: Colors.grey[500],
                   ),
@@ -40,7 +40,7 @@ class MyApp extends StatelessWidget {
             Icons.star,
             color: Colors.red[500],
           ),
-          const Text('41'),
+          const Text('5'),
         ],
       ),
     );
@@ -76,6 +76,19 @@ class MyApp extends StatelessWidget {
         _buildButtonColumn(color, Icons.share, 'SHARE'),
       ],
     );
+
+    Widget textSection = Container(
+      padding: const EdgeInsets.all(32),
+      child: const Text(
+        'Gunung Rinjani (3.726 mdpl) di Pulau Lombok, Nusa Tenggara Barat, adalah gunung '
+        'berapi aktif tertinggi kedua di Indonesia dan ikon pendakian dunia. Terkenal dengan '
+        'pemandangan Danau Segara Anak dan puncak menantang, kawasan ini merupakan surga bagi pendaki dan pecinta alam. '
+        'Rinjani menawarkan pengalaman mendalam dengan keindahan alam yang memukau, '
+        'menjadikannya tujuan utama bagi para petualang yang mencari tantangan dan keindahan alam Indonesia.'
+        'Nama: Moh Rafael Abrari, NIM: 244107060039🙂.',
+        softWrap: true,
+      ),
+    );
     
     return MaterialApp(
       title: 'Flutter layout: Moh Rafael Abrari dan 244107060039',
@@ -87,6 +100,7 @@ class MyApp extends StatelessWidget {
           children: [
             titleSection,
             buttonSection,
+            textSection,
           ],
         ),
       ),
