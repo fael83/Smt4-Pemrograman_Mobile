@@ -24,13 +24,16 @@ class MyApp extends StatelessWidget {
   Widget buildRow() =>
       // #docregion row
       Row(
-        crossAxisAlignment: CrossAxisAlignment.center,
-        children: [
-          Expanded(child: Image.asset('images/pic1.jpg')),
-          Expanded(flex: 2, child: Image.asset('images/pic2.jpg')),
-          Expanded(child: Image.asset('images/pic3.jpg')),
-        ],
-      );
+      mainAxisSize: MainAxisSize.min,
+      children: [
+        Icon(Icons.star, color: Colors.green[500]),
+        Icon(Icons.star, color: Colors.green[500]),
+        Icon(Icons.star, color: Colors.green[500]),
+        const Icon(Icons.star, color: Colors.black),
+        const Icon(Icons.star, color: Colors.black),
+      ],
+    );
+
   // #enddocregion row
 
   Widget buildColumn() =>

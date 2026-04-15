@@ -8,3 +8,6 @@ Aligning Widget
 
 Sizing Widget
 ![Screenshoot basic_layout_flutter](images/03.png)
+
+Packing Widget
+![Screenshoot basic_layout_flutter](images/04.png)
