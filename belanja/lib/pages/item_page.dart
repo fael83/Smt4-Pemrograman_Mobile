@@ -7,10 +7,11 @@ class ItemPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Item Page'),
+        title: Text('Shopping List'),
+        backgroundColor: Colors.blue,
       ),
       body: Center(
-        child: Text('Detail Item'),
+        child: Text('Salt With 2000'),
       ),
     );
   }
