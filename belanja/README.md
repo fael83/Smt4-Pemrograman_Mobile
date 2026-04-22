@@ -5,3 +5,6 @@ Langkah 1-6
 
 Langkah 7
 ![Screenshoot belanja](images/02.png)
+
+Tugas Praktikum
+![Screenshoot belanja](images/03.png)

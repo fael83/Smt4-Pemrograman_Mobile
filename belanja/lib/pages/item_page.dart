@@ -11,7 +11,7 @@ class ItemPage extends StatelessWidget {
         backgroundColor: Colors.blue,
       ),
       body: Center(
-        child: Text('Salt With 2000'),
+        child: Text('Detail item'),
       ),
     );
   }
