@@ -8,3 +8,6 @@ Langkah 7
 
 Tugas Praktikum
 ![Screenshoot belanja](images/03.png)
+
+Go_Router
+![Screenshoot belanja](images/04.png)

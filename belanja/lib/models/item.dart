@@ -5,5 +5,5 @@ class Item {
   int stock;
   double rating;
 
-  Item({required this.name, required this.price, this.image = '', this.stock = 0, this.rating = 0.0});
+  Item({required this.name, required this.price, required this.image, required this.stock, required this.rating});
 }

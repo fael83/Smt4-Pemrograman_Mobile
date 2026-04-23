@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
 import '../models/item.dart';
 
 class HomePage extends StatelessWidget {
@@ -27,11 +28,7 @@ class HomePage extends StatelessWidget {
           final item = items[index];
           return InkWell(
             onTap: () {
-              Navigator.pushNamed(
-                context,
-                '/item',
-                arguments: item,
-              );
+              context.push('/item', extra: item);
             },
             child: Card(
               elevation: 3,
@@ -47,19 +44,14 @@ class HomePage extends StatelessWidget {
                       child: Center(
                         child: Hero(
                           tag: item.name,
-                          child: Image.asset(
-                            item.image,
-                            fit: BoxFit.cover,
-                          ),
+                          child: Image.asset(item.image),
                         ),
                       ),
                   ),
                     SizedBox(height: 8),
                     Text(
                       item.name,
-                      style: TextStyle(
-                        fontWeight: FontWeight.bold,
-                      ),
+                      style: TextStyle(fontWeight: FontWeight.bold),
                     ),
                     // Harga
                     Text("Rp ${item.price}"),
